@@ -51,7 +51,6 @@ class Produit
             $this->stock = $stock;
         }
     }
-
     public function afficher()
     {
         echo '[' . $this->nom . '] - [' . $this->prix . '] $' . $this->stock;
